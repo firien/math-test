@@ -4,6 +4,10 @@
     "esbuild-plugin-ghpages-pwa": "github:firien/esbuild-plugin-ghpages-pwa",
     "signature_pad": "^5.0.3"
   },
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "private": true,
   "devDependencies": {
     "esbuild": "0.24.0"
   }
