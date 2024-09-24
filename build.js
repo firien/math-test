@@ -10,8 +10,8 @@ const { plugin: githubPages, buildOptions } = ghPages({
 let watch = false
 if (buildOptions.watch) {
   watch = true
-  delete buildOptions.watch
 }
+delete buildOptions.watch
 
 try {
   const options = {
